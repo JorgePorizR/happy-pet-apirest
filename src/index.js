@@ -88,9 +88,9 @@ app.get('/', (req, res) => {
 });
 app.use('/js', express.static(path.resolve(__dirname, '../frontend/principal/js')));*/
 
-/*app.get("/", (req, res)=>{
+app.get("/", (req, res)=>{
   res.send("Hola Mundo");
-});*/
+});
 
 // routes
 app.use(require('./routes/index'));

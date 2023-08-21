@@ -47,7 +47,8 @@ app.post("/upload", upload, (req, res)=>{
 });*/
 
 
-const whitelist = ['http://127.0.0.1:5500', 'http://localhost:3000', '*'];
+const whitelist = ['http://127.0.0.1:5500', 'http://localhost:3000', 'https://happypet-frontend.onrender.com'
+];
 
 // middlewares
 app.use(express.json());
